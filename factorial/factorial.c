@@ -14,10 +14,8 @@ int main() {
 
 double factorial_iter(double n) {
 	double i, result = 1;
-	for (i = 1; i <= 20; i++) {
+	for (i = 1; i <= 20; i++)
 		result = result * i;
-		printf("%f\n", result);
-	}
 	return result;
 }
 
